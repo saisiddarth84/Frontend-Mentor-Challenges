@@ -12,7 +12,6 @@ body{
   font-family: 'Inter';
 }
 .container{
-  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -63,6 +62,7 @@ img{
   padding: 9px;
   border-radius: 5px;
   transition: all 0.2s;
+  cursor:pointer;
 }
 .links-container div:active{
   background-color: hsl(75, 94%, 57%);
