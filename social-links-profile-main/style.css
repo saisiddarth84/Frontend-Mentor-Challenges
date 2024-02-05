@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+body{
+  background-color: black;
+  font-size: 14px;
+  color: hsl(0, 0%, 100%);
+  margin:0;
+  padding:0;
+  font-family: 'Inter';
+}
+.container{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-container{
+  background-color: hsl(0, 0%, 12%);
+  padding: 35px 25px 20px 25px;
+  border-radius: 10px;
+  max-width: 100%;
+  scale:1.5;
+  
+}
+.info-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+}
+.name{
+  margin-bottom: 5px;
+} 
+.place{
+  margin-top: 5px;
+  color:hsl(75, 94%, 57%);
+  font-size: 12px;
+  font-weight: 600;
+}
+.job-role{
+  font-size: 12px;
+}
+img{
+  width: 80px;
+  border-radius: 50px;   
+  margin-bottom: 5px;
+}
+.links-container{
+  margin-top: 5px;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.links-container div{
+  background-color:hsl(0, 0%, 20%);
+  text-align: center;
+  margin-bottom: 12px;
+  padding: 9px;
+  border-radius: 5px;
+  transition: all 0.2s;
+}
+.links-container div:active{
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+}
+
+@media (max-width: 375px){
+  .profile-container{
+    scale:1;
+  }
+}
